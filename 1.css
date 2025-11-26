@@ -1,0 +1,293 @@
+.{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    margin-inline: 200px;
+}
+
+
+.navbar {
+    width: 100%;
+    height: 80px;
+    border: 2px solid black;
+    display: flex;
+}
+
+.navbar .navleft {
+    width: 20%;
+    height: 80px;
+    border-right: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar .navleft img {
+    width: 20%;
+    height: 50px;
+}
+
+.navbar .navmiddle {
+    width: 60%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    font-size: 15px;
+}
+
+.navbar .navright {
+    width: 20%;
+    height: 80px;
+    border-left: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.main {
+    width: 100%;
+    height: 300px;
+    border: 2px solid black;
+    display: flex;
+}
+
+.main .mainleft {
+    width: 70%;
+    height: 300px;
+    border-right: 2px solid black;
+    padding-top: 50px;
+
+}
+
+.main .mainleft h1 {
+    font-size: 30px;
+}
+
+.main .mainleft p {
+    margin-top: 20px;
+}
+
+.main .mainright {
+    width: 30%;
+    height: 300px;
+}
+
+.main .mainright img {
+    width: 99%;
+    height: 297px;
+}
+
+.footer {
+    width: 100%;
+    height: 50px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+
+.blank {
+    width: 100%;
+    height: 90px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about {
+    width: 100%;
+    height: 300px;
+    border: 2px solid black;
+    display: flex;
+}
+
+.about .aboutleft {
+    width: 30%;
+    height: 300px;
+    border-right: 2px solid black;
+}
+
+.about .aboutleft img {
+    width: 99%;
+    height: 297px;
+}
+
+.about .aboutright {
+    width: 70%;
+    height: 300px;
+}
+
+.myskill {
+    width: 100%;
+    height: 70px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    width: 100%;
+    height: 250px;
+    display: flex;
+}
+
+.box .language {
+    width: 25%;
+    height: 250px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box .language img {
+    width: 80%;
+    height: 180px;
+}
+
+
+
+.projects {
+    width: 100%;
+    height: 80px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.show {
+    width: 100%;
+    height: 250px;
+    border: 2px solid black;
+    display: flex;
+}
+
+.show .project {
+    width: 33.33%;
+    height: 250px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.show .project img {
+    width: 95%;
+    height: 245px;
+}
+
+
+.education {
+    width: 100%;
+    height: 80px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ed {
+    width: 100%;
+    height: 150px;
+    border: 2px solid black;
+    display: flex;
+}
+
+.ed .de {
+    width: 33.33%;
+    height: 150px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.course {
+    width: 100%;
+    height: 80px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.co {
+    width: 100%;
+    height: 90px;
+    border: 2px solid black;
+    display: flex;
+}
+
+.c {
+    width: 50%;
+    height: 100%;
+    border-left: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.contact {
+    width: 100%;
+    height: 80px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contac {
+    width: 100%;
+    height: 300px;
+    border: 2px solid black;
+    display: flex;
+}
+
+.contac .foot {
+    width: 33.33%;
+    height: 300px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.contac .foot .info {
+    width: 100%;
+    height: 70px;
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contac .foot img {
+    width: 100px;
+    height: 100px;
+    margin: 70px 0px 30px 150px;
+}
+
+.contac .foot .manu {
+    width: 100%;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
